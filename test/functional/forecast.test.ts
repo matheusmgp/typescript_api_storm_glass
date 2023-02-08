@@ -4,7 +4,7 @@ describe('Beach forecast functional tests', () => {
         expect(status).toBe(200);
         expect(body).toEqual([
             {
-                time: '2020-04-26T00:00:00+00:00',
+                5645: '2020-04-26T00:00:00+00:00',
                 forecast: [
                     {
                         lat: -33.792726,
