@@ -1,8 +1,0 @@
-npm init
-npm i typescript
-npm i @types/node
-npm i module-alias
-npm i -D @typescript-eslint/eslint-plugin eslint @typescript-eslint/parser
-npm i ts-node-dev
-npm i jest @types/jest ts-jest -D
-npm i -D supertest @types/supertest

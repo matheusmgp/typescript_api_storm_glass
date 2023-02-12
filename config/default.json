@@ -1,10 +1,18 @@
 {
-    "App":{
-        "resources":{
-            "StormGlass":{
-                "apiUrl": "https://api.stormglass.io/v2",
-                "apiToken":"fake-api-token"
-            }
-        }
+  "App": {
+    "port": 3000,
+    "database": {
+      "mongoUrl": "mongodb://127.0.0.1:27017/surf-forecast"
+    },
+    "auth":{
+      "key":"some-key",
+      "tokenExpiresIn":1000000000
+    },
+    "resources": {
+      "StormGlass": {
+        "apiUrl": "https://api.stormglass.io/v2",
+        "apiToken": "af308fb2-a94a-11ed-a138-0242ac130002-af309034-a94a-11ed-a138-0242ac130002"
+      }
     }
+  }
 }
